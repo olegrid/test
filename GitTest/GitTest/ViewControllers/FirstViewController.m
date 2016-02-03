@@ -10,6 +10,8 @@
 
 @interface FirstViewController ()
 
+@property (nonatomic, weak)IBOutlet UILabel * textLabel;
+
 @end
 
 @implementation FirstViewController
@@ -26,6 +28,7 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     self.view.backgroundColor = [UIColor blueColor];
+    self.textLabel.text = @"asdasdasd";
 }
 
 /*
