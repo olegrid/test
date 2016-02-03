@@ -31,7 +31,7 @@
     self.view.backgroundColor = [UIColor blackColor];
     self.textLabel.text = @"asdasdasd";
     
-    NSLog(@"ff1");
+    NSLog(@"ff1zdfsf");
 
 }
 
