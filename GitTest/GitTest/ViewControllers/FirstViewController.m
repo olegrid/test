@@ -27,8 +27,10 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated{
-    self.view.backgroundColor = [UIColor blueColor];
+
+    self.view.backgroundColor = [UIColor blackColor];
     self.textLabel.text = @"asdasdasd";
+
 }
 
 /*
